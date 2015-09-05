@@ -1,7 +1,7 @@
 var React = require('react');
-var Locations = require('./components/Locations.jsx');
+var Calendar = require('./components/Calendar.jsx');
 
 React.render(
-  <Locations />,
+  <Calendar />,
   document.getElementById('ReactApp')
 );

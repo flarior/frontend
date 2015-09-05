@@ -1,0 +1,27 @@
+{
+  "name": "flarior-frontend",
+  "version": "0.0.1",
+  "description": "Flarior frontend",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/flarior/flarior-frontend.git"
+  },
+  "author": "",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/flarior/flarior-frontend/issues"
+  },
+  "homepage": "https://github.com/flarior/flarior-frontend#readme",
+  "dependencies": {
+    "gulp": "^3.9.0",
+    "gulp-dest": "^0.2.2",
+    "gulp-sass": "^2.0.4",
+    "gulp-sourcemaps": "^1.5.2",
+    "gulp-webserver": "^0.9.1",
+    "inuit-starter-kit": "^0.2.9"
+  }
+}

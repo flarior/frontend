@@ -3,7 +3,10 @@ var React = require('react');
 var Locations = React.createClass({
     render() {
         return (
-            <h1>Uspelo</h1>
+          <div className="locations">
+            <h1>Success</h1>
+            My first react app
+          </div>
         );
     }
 });

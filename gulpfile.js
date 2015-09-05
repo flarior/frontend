@@ -4,10 +4,8 @@ global.gulp = require('gulp');
 var webserver = require('gulp-webserver');
 var browserify = require('gulp-browserify');
 var sass = require('gulp-sass');
-var useref = require('gulp-useref');
 var rename = require('gulp-rename');
-var reactify = require('gulp-reactify');
-var source = require('vinyl-source-stream');
+var reactify = require('reactify');
 
 global.flariorPaths = {
   app : path.resolve('./app/'),
@@ -38,6 +36,12 @@ gulp.task('sass', function compileInuit(){
 });
 
 gulp.task('compileJs', function(){
+  gulp.src(flariorPaths.jsxEntry)
+    .pipe(browserify({
+      transform: [reactify]
+    }))
+    .pipe(rename('app.js'))
+    .pipe(gulp.dest('./app/static/js'))
 });
 
 gulp.task('watch', function(){

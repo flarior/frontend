@@ -1,2 +1,2 @@
-*.css
+app/static/
 node_modules/

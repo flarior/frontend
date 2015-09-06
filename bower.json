@@ -1,0 +1,29 @@
+{
+  "name": "flarior-frontend",
+  "version": "0.0.1",
+  "homepage": "https://github.com/flarior/flarior-frontend",
+  "authors": [
+    "Goran Mekić <meka@lugons.org>"
+  ],
+  "description": "Flarior Frontend",
+  "license": "GPLv3",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "inuit-buttons": "~0.4.2",
+    "inuit-layout": "~0.3.2",
+    "inuit-spacing": "~0.7.0",
+    "inuit-spacing-responsive": "~0.0.8",
+    "inuit-starter-kit": "~0.2.9",
+    "inuit-tools-widths": "~0.1.4",
+    "inuit-widths-responsive": "~0.2.2"
+  },
+  "resolutions": {
+    "inuit-spacing": "~0.6.1"
+  }
+}

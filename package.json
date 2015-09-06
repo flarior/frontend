@@ -18,25 +18,12 @@
   "homepage": "https://github.com/flarior/flarior-frontend#readme",
   "dependencies": {
     "alt": "^0.17.3",
-    "browserify": "^11.0.1",
-    "gulp": "^3.9.0",
     "gulp-browserify": "^0.5.1",
-    "gulp-dest": "^0.2.2",
-    "gulp-react": "^3.0.1",
-    "gulp-reactify": "^3.0.1",
     "gulp-rename": "^1.2.2",
     "gulp-sass": "^2.0.4",
-    "gulp-sourcemaps": "^1.5.2",
     "gulp-webserver": "^0.9.1",
-    "inuit-starter-kit": "^0.2.9",
     "react": "^0.13.3",
-    "react-tools": "^0.13.3",
-    "reactify": "^1.1.1",
-    "vinyl-buffer": "^1.0.0",
-    "vinyl-source-stream": "^1.1.0"
-  },
-  "devDependencies": {
-    "gulp-useref": "^1.3.0"
+    "reactify": "^1.1.1"
   },
   "browserify": {
     "transform": [

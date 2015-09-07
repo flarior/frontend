@@ -1,7 +1,6 @@
 // SETTINGS
 @import "bower_components/inuit-defaults/settings.defaults";
 @import "bower_components/inuit-responsive-settings/settings.responsive";
-@import "settings/defaults";
 
 
 // TOOLS
@@ -14,6 +13,7 @@
 // GENERIC
 @import "bower_components/inuit-normalize/generic.normalize";
 @import "bower_components/inuit-box-sizing/generic.box-sizing";
+@import "generic/defaults";
 
 
 // BASE

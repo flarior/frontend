@@ -1,3 +1,4 @@
 app/static/
+app/livereload.txt
 node_modules/
 bower_components/

@@ -13,10 +13,11 @@ global.flariorPaths = {
   sassGlob: path.resolve('./app/sass/**/*.scss'),
   javascript: path.resolve('./app/js/**/*.js*'),
   jsxEntry: path.resolve('./app/js/app.jsx'),
+  backend: path.resolve('./app/livereload.txt'),
   css: path.resolve('./app/css')
 }
 
-gulp.task('webserver',['sass', 'watch', 'compileJs'], function() {
+gulp.task('webserver',['sass', 'watch', 'compileJs', 'backend'], function() {
   gulp.src(flariorPaths.app)
     .pipe(webserver({
       host: '0.0.0.0',
@@ -44,9 +45,14 @@ gulp.task('compileJs', function(){
     .pipe(gulp.dest('./app/static/js'))
 });
 
+gulp.task('backend', function() {
+
+});
+
 gulp.task('watch', function(){
   gulp.watch(flariorPaths.sassGlob, ['sass']);
   gulp.watch(flariorPaths.javascript, ['compileJs']);
+  gulp.watch(flariorPaths.backend, ['backend']);
 });
 
 gulp.task('default', ['webserver']);

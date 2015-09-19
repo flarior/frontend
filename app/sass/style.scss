@@ -26,7 +26,6 @@
 
 
 // COMPONENTS (Custom stuff)
-@import "components/app";
 
 // TRUMPS
 @import "bower_components/inuit-widths/trumps.widths";
@@ -34,3 +33,11 @@
 @import "bower_components/inuit-widths-responsive/trumps.widths-responsive";
 @import "bower_components/inuit-spacing-responsive/trumps.spacing-responsive";
 @import "trumps/defaults";
+
+@import "menu";
+@import "title";
+
+body {
+  background: #888;
+  background: linear-gradient(#aaa, #555);
+}

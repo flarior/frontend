@@ -1,0 +1,43 @@
+.title {
+  box-shadow: 0 0 15px 1px rgba(0, 0, 0, 0.35);
+  background: #333;
+  background: linear-gradient(#333, #000);
+}
+
+.title--item {
+  display: inline-block;
+  text-align: center;
+}
+
+.title--previous {
+  text-align: left;
+}
+
+.title--next {
+  text-align: right;
+}
+
+.title a {
+  text-decoration: none;
+}
+
+.title--item h3 {
+  display: inline;
+  color: #aad;
+}
+
+.title--item {
+  color: #777;
+}
+
+.title--previous a, .title--next a {
+  text-align: center;
+  display: block;
+  max-width: 30px;
+  color: #c66;
+}
+
+.title--next a {
+  margin: auto;
+  margin-right: 0;
+}

@@ -13,7 +13,7 @@
 .content-item {
   display: inline-block;
   border-right: 1px solid black;
-  height: 90%;
+  height: calc(100vh - 36px - 45px);
 }
 
 .current {

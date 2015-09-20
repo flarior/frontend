@@ -37,11 +37,43 @@
 @import "menu";
 @import "title";
 
+html, body{
+  height: 100%;
+}
+
 body {
-  background: #888;
+  background: #aaa;
   background: linear-gradient(#aaa, #555);
 }
 
 .text--small {
+  font-size: 80%;
+}
+
+.day {
+  display: inline-block;
+  text-align: center;
+  border-right: 1px solid #444;
+}
+
+.day:last-child {
+  border-right: none;
+}
+
+.day-name {
+  height: 4%;
+  display: inline-block;
+}
+
+.content {
+  height: calc(100vh - 36px - 36px);
+}
+
+.hour {
+  height: 4%;
+  border-top: 1px solid #aaa;
+}
+
+.day-of-month {
   font-size: 80%;
 }

@@ -1,0 +1,28 @@
+.breadcrumb {
+  display: inline-block;
+  box-shadow: 0 0 15px 1px rgba(0, 0, 0, 0.35);
+  background: $flarior-menu-first-color;
+  background: linear-gradient($flarior-menu-first-color, $flarior-menu-second-color);
+  width: 100%;
+}
+
+.breadcrumb a {
+  text-decoration: none;
+  outline: none;
+  display: block;
+  float: left;
+  font-size: 12px;
+  line-height: $flarior-breadcrumb-lineheight;
+  color: #c66;
+  padding: 0 20px 0 20px;
+  position: relative;
+}
+
+.breadcrumb a.active, .breadcrumb a:hover{
+  background: $flarior-menu-second-color;
+  background: linear-gradient($flarior-menu-second-color, #000);
+}
+.breadcrumb a.active:after, .breadcrumb a:hover:after {
+  background: $flarior-menu-second-color;
+  background: linear-gradient(135deg, $flarior-menu-second-color, $flarior-menu-third-color);
+}

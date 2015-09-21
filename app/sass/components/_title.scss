@@ -1,9 +1,9 @@
 .title {
   box-shadow: 0 0 15px 1px rgba(0, 0, 0, 0.35);
-  background: #333;
-  background: linear-gradient(#333, #000);
+  background: $flarior-title-first-color;
+  background: linear-gradient($flarior-title-first-color, $flarior-title-second-color);
   line-height: 15px;
-  height: 36px;
+  height: $flarior-title-height;
 }
 
 .title--item {

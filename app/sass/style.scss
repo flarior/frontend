@@ -1,6 +1,7 @@
 // SETTINGS
 @import "bower_components/inuit-defaults/settings.defaults";
 @import "bower_components/inuit-responsive-settings/settings.responsive";
+@import "settings/defaults.scss";
 
 
 // TOOLS
@@ -26,55 +27,13 @@
 
 
 // COMPONENTS (Custom stuff)
+@import "components/menu";
+@import "components/title";
+@import "components/navigation";
+@import "components/body";
 
 // TRUMPS
 @import "bower_components/inuit-widths/trumps.widths";
 @import "bower_components/inuit-spacing/trumps.spacing";
 @import "bower_components/inuit-widths-responsive/trumps.widths-responsive";
 @import "bower_components/inuit-spacing-responsive/trumps.spacing-responsive";
-@import "trumps/defaults";
-
-@import "menu";
-@import "title";
-@import "navigation";
-
-html, body{
-  height: 100%;
-}
-
-body {
-  background: #aaa;
-  background: linear-gradient(#aaa, #555);
-}
-
-.text--small {
-  font-size: 80%;
-}
-
-.day {
-  display: inline-block;
-  text-align: center;
-  border-right: 1px solid #444;
-}
-
-.day:last-child {
-  border-right: none;
-}
-
-.day-name {
-  height: 25px;
-  display: inline-block;
-}
-
-.content {
-  height: calc(100vh - 36px - 36px);
-}
-
-.hour {
-  height: calc((100vh - 25px - 36px - 36px) / 24);
-  border-top: 1px solid #aaa;
-}
-
-.day-of-month {
-  font-size: 80%;
-}

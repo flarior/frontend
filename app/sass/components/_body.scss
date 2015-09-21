@@ -1,0 +1,52 @@
+html, body{
+  height: 100%;
+}
+
+body {
+  background: #aaa;
+  background: linear-gradient(#aaa, #555);
+}
+
+.text--small {
+  font-size: 80%;
+}
+
+.day {
+  display: inline-block;
+  text-align: center;
+  border-right: 1px solid #444;
+}
+
+.day:last-child {
+  border-right: none;
+}
+
+.day-name {
+  height: $flarior-dayname-height;
+  display: inline-block;
+}
+
+.content {
+  height: calc(100vh - #{$flarior-breadcrumb-lineheight} - #{$flarior-title-height});
+}
+
+.hour {
+  height: calc((100vh - #{$flarior-breadcrumb-lineheight} - #{$flarior-title-height} - #{$flarior-dayname-height}) / 24);
+  border-top: 1px solid #aaa;
+}
+
+.day-of-month {
+  font-size: 80%;
+}
+
+.text--right {
+   text-align: right !important;
+}
+
+.text--center {
+  text-align: center !important;
+}
+
+.text--justify {
+  text-align: justify;
+}

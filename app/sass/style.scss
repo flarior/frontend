@@ -36,6 +36,7 @@
 
 @import "menu";
 @import "title";
+@import "navigation";
 
 html, body{
   height: 100%;
@@ -61,7 +62,7 @@ body {
 }
 
 .day-name {
-  height: 4%;
+  height: 25px;
   display: inline-block;
 }
 
@@ -70,7 +71,7 @@ body {
 }
 
 .hour {
-  height: 4%;
+  height: calc((100vh - 25px - 36px - 36px) / 24);
   border-top: 1px solid #aaa;
 }
 

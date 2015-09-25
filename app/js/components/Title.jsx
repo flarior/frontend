@@ -12,10 +12,10 @@ var Title = React.createClass({
     };
   },
   nextWeek: function(event){
-    this.setState({start: start.day(7), end: end.day(7)})
+    this.setState({start: this.state.start.day(7), end: this.state.end.day(7)})
   },
   previousWeek: function(event){
-    this.setState({start: start.day(-7), end: end.day(-7)})
+    this.setState({start: this.state.start.day(-7), end: this.state.end.day(-7)})
   },
 
     render() {

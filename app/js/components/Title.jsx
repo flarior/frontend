@@ -22,13 +22,13 @@ var Title = React.createClass({
         return (
           <div className="title">
             <div className="u-1/3 title--item title--previous">
-              <a href="" onClick={this.previousWeek}>&lt;</a>
+              <a href="#" onClick={this.previousWeek}>&lt;</a>
             </div>
             <div className="u-1/3 title--item title--data">
               <h3>{this.state.start.format("D MMM")} - {this.state.end.format("D MMM")}</h3>
             </div>
             <div className="u-1/3 title--item title--next">
-              <a href="" onClick={this.nextWeek}>&gt;</a>
+              <a href="#" onClick={this.nextWeek}>&gt;</a>
             </div>
           </div>
         );

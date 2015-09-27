@@ -19,7 +19,7 @@ var Day = React.createClass({
     }
     return (
       <div className="u-1/7 day">
-        <span className="u-6/7 day-name">{this.props.day}</span>
+        <span className="u-6/7 day-name">{this.props.name}</span>
         <span className="u-1/7 day-of-month">{this.props.dayOfMonth}</span>
         {hours.map((hour) => {
           return(

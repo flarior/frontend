@@ -1,6 +1,6 @@
 var React = require('react');
 
-var Menu = React.createClass({
+var Todo = React.createClass({
     render() {
       return (
         <nav id="navigation" className="navigation">
@@ -10,4 +10,4 @@ var Menu = React.createClass({
     }
 });
 
-module.exports = Menu;
+module.exports = Todo;

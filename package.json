@@ -18,6 +18,7 @@
   "homepage": "https://github.com/flarior/flarior-frontend#readme",
   "dependencies": {
     "alt": "^0.17.3",
+    "bower": "^1.5.3",
     "gulp": "^3.9.0",
     "gulp-browserify": "^0.5.1",
     "gulp-rename": "^1.2.2",

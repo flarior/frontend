@@ -6,6 +6,7 @@ var browserify = require('gulp-browserify');
 var sass = require('gulp-sass');
 var rename = require('gulp-rename');
 var reactify = require('reactify');
+var babel = require('gulp-babel');
 
 global.flariorPaths = {
   app : path.resolve('./app/'),
@@ -41,12 +42,12 @@ gulp.task('compileJs', function(){
     .pipe(browserify({
       transform: [reactify]
     }))
+    .pipe(babel())
     .pipe(rename('app.js'))
     .pipe(gulp.dest('./app/static/js'))
 });
 
 gulp.task('backend', function() {
-
 });
 
 gulp.task('watch', function(){

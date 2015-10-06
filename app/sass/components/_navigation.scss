@@ -1,4 +1,4 @@
-.navigation {
+.todo {
   position: fixed;
   height: 100%;
   width: 0;
@@ -13,15 +13,20 @@
   box-shadow: -2px 1px 5px #333;
 }
 
-.navigation:target {
+.todo:target {
   width: 20%;
 }
 
-.navigation a {
+.todo a {
   text-decoration: none;
   color: red;
 }
 
-.navigation-menu {
+.todo ul {
+  color: white;
+  text-align: left;
+}
+
+.todo-menu {
   float: right !important;
 }

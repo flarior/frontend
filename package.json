@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/flarior/flarior-frontend#readme",
   "dependencies": {
-    "alt": "^0.17.3",
+    "alt": "^0.17.4",
     "bower": "^1.5.3",
     "gulp": "^3.9.0",
     "gulp-browserify": "^0.5.1",
@@ -26,11 +26,15 @@
     "gulp-webserver": "^0.9.1",
     "moment": "^2.10.6",
     "react": "^0.13.3",
-    "reactify": "^1.1.1"
+    "reactify": "^1.1.1",
+    "superagent": "^1.4.0"
   },
   "browserify": {
     "transform": [
       "reactify"
     ]
+  },
+  "devDependencies": {
+    "gulp-babel": "^5.2.1"
   }
 }

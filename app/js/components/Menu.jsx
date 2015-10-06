@@ -7,7 +7,7 @@ var Menu = React.createClass({
           <a href="#">Day</a>
           <a href="#" className="active">Week</a>
           <a href="#">Month</a>
-          <a href="#navigation" className="navigation-menu active">Todo</a>
+          <a href="#navigation" className="todo-menu active">Todo</a>
         </div>
       );
     }
